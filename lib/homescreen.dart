@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:coronavirustracker/tip_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'statescreen.dart';
@@ -262,7 +262,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontWeight: FontWeight.bold),
                       ),
                       Icon(
-                        FontAwesomeIcons.arrowCircleRight,
+                        Icons.arrow_right,
                         color: Colors.white,
                         size: 40,
                       )
